@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+/* body{
+    background-color: #ececec;
+} */
+html{
+    background-color: #f4f5f5;
+}
+.container{
+    /* style="padding:20px; background: #fff;" [ngStyle]="{'height':'930px'}" */
+    padding:15px; 
+    /* background-color: #fff; */
+    height:'930px'
+}
+
+.container_title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.container_tool {
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container_content{
+
+}

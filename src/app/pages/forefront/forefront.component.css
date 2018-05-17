@@ -1,0 +1,145 @@
+
+.f_container{
+    width: 100%;
+    height: 100%;
+    background-color: #f4f5f5;
+}
+.f_header{
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    display: -webkit-flex;
+    display: flex;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    flex-wrap: wrap;
+    align-items:center;
+    border-bottom: 1px solid #ececec;
+}
+.f_header .header_nav{
+    font-size: 16px;
+}
+
+.f_header .header_nav ul{
+    list-style: none;
+}
+.f_header .header_nav ul li a{
+    color: #71777c;
+}
+.f_header .header_nav ul li{
+    margin: 20px;
+    float: left;
+}
+
+.f_header .header_nav ul li :hover{
+    color: #007fff;
+}
+
+.f_header_content{
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+
+    display: -webkit-flex;
+    display: flex;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.f_content{
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.f_content_left{
+    width: 0%;
+
+}
+.f_content_center{
+    width: 80%;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.f_content_right{
+    width: 25%;
+
+}
+
+.f_footer{
+
+}
+
+.f_card{
+    width: 100%;
+    background-color: #fff;
+    border: 1px #ececec;
+    -moz-box-shadow:2px 2px 5px #ececec; 
+    -webkit-box-shadow:2px 2px 5px #ececec; 
+    box-shadow:2px 2px 5px #ececec;
+    margin-bottom: 15px;
+}
+
+.f_card_title {
+    width: 100%;
+    border-bottom: 1px solid #e9e9e9;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-wrap:break-word;
+    padding: 10px;
+    color: #333;
+}
+
+.f_card_content {
+    width: 100%;
+    word-wrap:break-word;
+    padding: 10px;
+    font-size: 13px;
+    color: #909090;
+}
+
+.avatar_square{
+    width: 50px;
+    height: 50px;
+}
+
+.navlogo{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.navlogo a{
+    color: #007fff;
+}
+
+.f_tool_write{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    flex-wrap: wrap;
+    align-items:center;
+    font-size: 14px;
+}
+
+.f_tool_write_item{
+    margin-left: 30px;
+    color: #007fff;
+}
+
+.img_right{
+    width: 100%;
+}
+
+.f_content_list{
+    width: 100%;
+}
+.f_content_list li{
+    border-bottom: 1px solid rgba(178,186,194,.15);
+}

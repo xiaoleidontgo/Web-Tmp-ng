@@ -1,0 +1,20 @@
+.f_tag_list{
+    list-style: none;
+    display: -webkit-flex;
+    display: flex;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    flex-wrap: wrap;
+}
+.f_tag_list li{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.f_tag_list li a {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    cursor: pointer;
+}

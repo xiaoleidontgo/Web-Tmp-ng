@@ -7,8 +7,9 @@ const routes: Routes = [
     path: '',
     component: AdminComponent,
     children: [
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: '', redirectTo: 'sys', pathMatch: 'full' },
       { path: 'home', loadChildren: './home/home.module#HomeModule' },
+      { path: 'sys', loadChildren: './sys/sys.module#SysModule' },
     ]
   }
 ];
